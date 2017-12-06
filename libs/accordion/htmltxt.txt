@@ -1,0 +1,199 @@
+ <div id="page">
+            <h1>Widgets: Accordion</h1>
+            
+            <p>This is a customisable accordion widget for jQuery. It gets around the
+            well documented jQuery animation jump issue of slideDown() by just not using it.</p>
+            
+            <h2>Example 1</h2>
+            
+            <p>This is the default accordion. Toggling is disabled, and the first
+            item in the accordion automatically opens during accordion initialisation.</p>
+            
+            <ul id="example1" class="accordion">
+                <li>
+                    <h3>Handle 1</h3>
+                    <div class="panel loading">
+                        <h4>panel loading 1</h4>
+                        <p>Plain old heading and paragraph content.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Handle 2</h3>
+                    <ul class="panel loading">
+                        <li>How about&hellip;</li>
+                        <li>&hellip; a list &hellip;</li>
+                        <li>&hellip; of items?</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Handle 3</h3>
+                    <p class="panel loading">
+                        <img src="img/spa.png" alt="" width="220" height="220"> An image in a paragraph.
+                    </p>
+                </li>
+                <li>
+                    <h3>Handle 4</h3>
+                    <div class="panel loading">
+                        <h4>A nested list of items</h4>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2
+                                <ul>
+                                    <li>Subitem 1</li>
+                                    <li>Subitem 2</li>
+                                    <li>Subitem 3</li>
+                                </ul>
+                            </li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            
+            <h2>Example 2</h2>
+            
+            <p>With toggling enabled, the user is able to close down all items.</p>
+            
+            <ul id="example2" class="accordion">
+                <li>
+                    <h3>Handle 1</h3>
+                    <div class="panel loading">
+                        <h4>panel loading 1</h4>
+                        <p>Plain old heading and paragraph content.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Handle 2</h3>
+                    <ul class="panel loading">
+                        <li>How about&hellip;</li>
+                        <li>&hellip; a list &hellip;</li>
+                        <li>&hellip; of items?</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Handle 3</h3>
+                    <p class="panel loading">
+                        <img src="img/spa.png" alt="" width="220" height="220"> An image in a paragraph.
+                    </p>
+                </li>
+                <li>
+                    <h3>Handle 4</h3>
+                    <div class="panel loading">
+                        <h4>A nested list of items</h4>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2
+                                <ul>
+                                    <li>Subitem 1</li>
+                                    <li>Subitem 2</li>
+                                    <li>Subitem 3</li>
+                                </ul>
+                            </li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            
+            <h2>Example 3</h2>
+            
+            <p>By applying a class of "locked" (or whatever is specified in the
+            parameter object that is passed to the accordion plug-in), the corresponding
+            item is locked open. The rest of the accordion functions as expected
+            around the locked item.</p>
+            
+            <ul id="example3" class="accordion">
+                <li class="locked">
+                    <h3>Handle 1</h3>
+                    <div class="panel loading">
+                        <h4>panel loading 1 (Locked open)</h4>
+                        <p>Plain old heading and paragraph content.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Handle 2</h3>
+                    <ul class="panel loading">
+                        <li>How about&hellip;</li>
+                        <li>&hellip; a list &hellip;</li>
+                        <li>&hellip; of items?</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Handle 3</h3>
+                    <p class="panel loading">
+                        <img src="img/spa.png" alt="" width="220" height="220"> An image in a paragraph.
+                    </p>
+                </li>
+                <li>
+                    <h3>Handle 4</h3>
+                    <div class="panel loading">
+                        <h4>A nested list of items</h4>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2
+                                <ul>
+                                    <li>Subitem 1</li>
+                                    <li>Subitem 2</li>
+                                    <li>Subitem 3</li>
+                                </ul>
+                            </li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            
+            <h2>Example 4</h2>
+            
+            <p>This example isn't an accordion at all, and behaves like a standard
+            collapsible menu. It is possible to open more than one item.</p>
+            
+            <ul id="example4" class="accordion">
+                <li>
+                    <h3>Handle 1</h3>
+                    <div class="panel loading">
+                        <h4>panel loading 1</h4>
+                        <p>Plain old heading and paragraph content.</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Handle 2</h3>
+                    <ul class="panel loading">
+                        <li>How about&hellip;</li>
+                        <li>&hellip; a list &hellip;</li>
+                        <li>&hellip; of items?</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Handle 3</h3>
+                    <p class="panel loading">
+                        <img src="img/spa.png" alt="" width="220" height="220"> An image in a paragraph.
+                    </p>
+                </li>
+                <li>
+                    <h3>Handle 4</h3>
+                    <div class="panel loading">
+                        <h4>A nested list of items</h4>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2
+                                <ul>
+                                    <li>Subitem 1</li>
+                                    <li>Subitem 2</li>
+                                    <li>Subitem 3</li>
+                                </ul>
+                            </li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
